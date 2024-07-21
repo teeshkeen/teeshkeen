@@ -1,16 +1,28 @@
-## Hi there 👋
+```swift
+//
+//  readmeApp.swift
+//  SoftwareEngineer
+//
+//  Created by teeshkeen on 21.07.2024.
+//
 
-<!--
-**teeshkeen/teeshkeen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+struct SoftwareEngineer {
+    let fullName: String
+    let age: Int
+    let level: String
+    let languageSpoken: [String]
+    
+    private func sayIt() {
+      print("Sometimes life hits you in the head with a brick. Don’t lose faith.")
+  }
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+let me = SoftwareEngineer(
+    fullName: "Alexey Tishkin",
+    age: 20,
+    level: "Junior"
+    languageSpoken: ["en_US", "ru_RU"]
+)
+ 
+me.sayIt()
+```
