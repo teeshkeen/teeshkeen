@@ -20,7 +20,7 @@ struct SoftwareEngineer {
 let me = SoftwareEngineer(
     fullName: "Alexey Tishkin",
     age: 20,
-    level: "Junior/Middle"
+    level: "Junior/Middle-"
     languageSpoken: ["en_US", "ru_RU"]
 )
  
